@@ -23,9 +23,6 @@
             gtag('config', 'UA-90924782-1', {'anonymize_ip': true});
         </script> 
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="/js/main.js"></script>
-
     </head>
 
     <body>
@@ -464,22 +461,22 @@
                                     </div>
 
                                     <div class="one-half width-55 last">
-                                        <div class="contact-form" method="post">
-                                            <p>
-                                                <input id="name" type="text" name="your-name" placeholder="Name">
-                                            </p>
-                                            <p>
-                                                <input id="contact-email" type="email" name="your-email" placeholder="Email">
-                                            </p>                                    
-                                            <p>
-                                                <input id="subject" type="text" name="your-subject" placeholder="Subject">
-                                            </p>
-                                            <p>
-                                                <textarea id="message" name="your-message" placeholder="Message"></textarea>
-                                            </p>
-                                            <p class="contact-submit-holder">
-                                                <input type="button" value="Send Email" onclick="sendEmail()">
-                                            </p>                                
+                                        <div class="contact-form">
+                                            <form action="mailto:andreasallbuqori@gmail.com" method="post" enctype="text/plain">
+                                                <p>
+                                                    <input id="name" type="text" name="your-name" placeholder="Name">
+                                                </p>
+                                                <p>
+                                                    <input id="contact-email" type="email" name="your-email" placeholder="Email">
+                                                </p>                                    
+                                                <p>
+                                                    <input id="subject" type="text" name="your-subject" placeholder="Subject">
+                                                </p>
+                                                <p>
+                                                    <textarea id="message" name="your-message" placeholder="Message"></textarea>
+                                                </p>
+                                                <input target="blank" type="submit">
+                                            </form>             
                                         </div> 
                                     </div> 
                                 </div>
