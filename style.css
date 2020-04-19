@@ -1794,3 +1794,16 @@ p.contact-submit-holder {
     }
 
 }
+
+.grid-item {
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    border: 10px solid transparent;
+    width: 50%;
+    transition: opacity .3s;
+}
